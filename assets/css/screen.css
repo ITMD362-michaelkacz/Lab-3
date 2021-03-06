@@ -20,7 +20,10 @@ h2 {
   margin-bottom: 1em;
 }
 
-input {
+button, input {
+  font-family: Calibri, "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
+  overflow: visible;
+
   margin-bottom: 1em;
   margin-top: 1em;
 }
@@ -45,8 +48,19 @@ footer {
   background-color: #808080;
 }
 
-#wrap {
-  text-align: center;
+#wrap input[type="email"] {
+  border-color: transparent;
+  background-color: #808080;
+}
+
+#wrap input[type="date"] {
+  border-color: transparent;
+  background-color: #808080;
+}
+
+#wrap input[type="number"] {
+  border-color: transparent;
+  background-color: #808080;
 }
 
 @media screen and (min-width: 12.6em) {
@@ -56,6 +70,9 @@ footer {
   }
   html {
     font-size: 50%;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
   }
 }
 

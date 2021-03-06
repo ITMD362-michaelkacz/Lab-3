@@ -2,7 +2,7 @@
 
 html {
   font-family: Poppins, "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
-  background: #87CEEB;
+  background: #808080;
   font-size: 1.125em;
 }
 
@@ -21,7 +21,17 @@ h2 {
 }
 
 input {
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+fieldset {
+  border-color: transparent;
+  background-color: #DEDEDE;
+}
+
+footer {
+  margin-top: 1em;
 }
 
 @media screen and (min-width: 12.6em) {

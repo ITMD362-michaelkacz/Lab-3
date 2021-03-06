@@ -32,11 +32,12 @@ label {
   padding-bottom: 0.25em;
   text-align: center;
   font-weight: bold;
+  text-decoration: underline;
 }
 
 fieldset {
   border-color: transparent;
-  background-color: #DEDEDE;
+  background-color: #BEBEBE;
 }
 
 footer {

@@ -33,6 +33,7 @@ label {
   text-align: center;
   font-weight: bold;
   text-decoration: underline;
+  margin-top: 1em;
 }
 
 fieldset {
